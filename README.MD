@@ -37,5 +37,3 @@ Bem-vindo ao meu repositório digital, onde cada linha de código conta uma hist
 Feedbacks e contribuições são sempre bem-vindos. Sinta-se à vontade para abrir problemas ou enviar pull requests!
 
 Agradeço por explorar meu repositório. Espero que encontre algo que desperte seu interesse!
-
-[eupane.com](https://eupane.com)
