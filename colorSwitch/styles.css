@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Color Variables */
+:root {
+    --background-color: #101010;
+    --button-color: #202020;
+    --background-button-color: #080808;
+    --boxShadow-button-color: #adadad;
+    --border-button-color: #050505;
+}
+
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;	
+    transition: background-color 0.75s ease-out;
+}
+
+body {
+    background-color: var(--background-color);
+    
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-container {
+    margin-top: 40vh;
+    width: 300px;
+    height: 150px;
+    background-color: var(--background-button-color);
+    border-radius: 25px;
+    border: 2px solid var(--border-button-color);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    transition: 0.2s;
+}
+
+.button-container:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px var(--boxShadow-button-color);
+}
+
+#switch-btn {
+    width: 140px;
+    height: 140px;
+    margin: 10px 3px;
+    background-color: var(--button-color);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: justify-content 1s ease;
+}
+
+footer {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+footer h2, a{
+    color: var(--background-button-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+footer a {
+    transition: color 0.3s;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: var(--boxShadow-button-color);
+}
+
+@media screen and (max-width: 768px) {
+    .button-container {
+        rotate: 90deg;
+    }
+}
