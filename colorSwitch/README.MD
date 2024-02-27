@@ -4,7 +4,7 @@ Este projeto apresenta uma aplicação web simples que permite aos usuários alt
 
 ## Demonstração
 
-Acesse a [demo do projeto](https://eupane.com/projetos/colorSwitch/) para experimentar a funcionalidade em tempo real.
+Acesse a [demo do projeto](https://eupane.github.io/projetos/colorSwitch/) para experimentar a funcionalidade em tempo real.
 
 ![Demonstração do Projeto](https://i.imgur.com/NRum6Xd.png)
 

@@ -4,7 +4,7 @@ Este projeto consiste em um catálogo de pessoas exibido em uma página web, ond
 
 ## Demonstração
 
-Acesse a [demo do projeto](https://eupane.com/projetos/advancedSearch/) para experimentar a funcionalidade em tempo real.
+Acesse a [demo do projeto](https://eupane.github.io/projetos/advancedSearch/) para experimentar a funcionalidade em tempo real.
 
 ![Demonstração do Sistema de Pesquisa de Usuários](https://i.imgur.com/ScRlnO0.png)
 
