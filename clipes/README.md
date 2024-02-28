@@ -4,7 +4,7 @@ Este projeto consiste em uma página web que exibe clipes de vídeo, permitindo 
 
 ## Demonstração
 
-Acesse a [demo do projeto](https://eupane.github.io/projetos/clipes/) para explorar a funcionalidade em tempo real.
+Acesse a [demo do projeto](https://eupane.github.io/arquivados/clipes/) para explorar a funcionalidade em tempo real.
 
 ![Demonstração do Projeto de Clipes](https://i.imgur.com/iACjFwA.jpeg)
 
