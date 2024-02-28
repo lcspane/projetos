@@ -17,17 +17,17 @@ Bem-vindo ao meu repositório digital, onde cada linha de código conta uma hist
 - **Descrição:** Este projeto consiste em um catálogo de pessoas exibido em uma página web, onde as informações de cada pessoa são armazenadas como atributos data- no HTML. A principal funcionalidade é um sistema de pesquisa dinâmica que permite aos usuários buscar por pessoas com base em seus nomes, cidades ou países.
 - **Tecnologias:** HTML, CSS e JavaScript
 
-#### 🚀 Projeto: [Color Switch](https://github.com/eupane/tree/master/projetos/tree/master/colorSwitch)
+#### 🚀 Projeto: [Color Switch](https://github.com/eupane/projetos/tree/master/colorSwitch)
 
 - **Descrição:** Este projeto apresenta uma aplicação web simples que permite aos usuários alternar entre dois temas: um tema escuro e um tema claro
 - **Tecnologias:** HTML, CSS e JavaScript
 
-#### 🚀 Projeto: [Theme Switch](https://github.com/eupane/tree/master/projetos/tree/master/themeSwitch)
+#### 🚀 Projeto: [Theme Switch](https://github.com/eupane/projetos/tree/master/themeSwitch)
 
 - **Descrição:** Este projeto apresenta uma demonstração interativa de alternância de cores em uma página web. Os usuários podem clicar no botão para alternar entre diferentes esquemas de cores, proporcionando uma experiência visual dinâmica
 - **Tecnologias:** HTML, CSS e JavaScript
 
-#### 🚀 Projeto: [Clipes](https://github.com/eupane/tree/master/projetos/tree/master/clipes)
+#### 🚀 Projeto: [Clipes](https://github.com/eupane/projetos/tree/master/clipes)
 
 - **Descrição:** Este projeto consiste em uma página web que exibe clipes de vídeo, permitindo aos usuários procurar por títulos ou tags específicas. Além disso, há a funcionalidade de compartilhamento de clipes por meio de URLs únicas.
 - **Tecnologias:** HTML, CSS e JavaScript
