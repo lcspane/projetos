@@ -4,7 +4,7 @@ Este projeto apresenta uma demonstração interativa de alternância de cores em
 
 ## Demonstração
 
-Acesse a [demo do projeto](https://eupane.github.io/projetos/themeSwitch/) para experimentar a funcionalidade em tempo real.
+Acesse a [demo do projeto](https://www.lcspane.com/projetos/themeSwitch/) para experimentar a funcionalidade em tempo real.
 
 ![Demonstração do Projeto](https://i.imgur.com/uIYgE7f.png)
 
