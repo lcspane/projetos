@@ -6,7 +6,7 @@ Este é um projeto de conversor de moedas desenvolvido em HTML, CSS e JavaScript
 
 Acesse a [demo do projeto](https://www.lcspane.com/projetos/conversor-de-moedas/) para experimentar a funcionalidade em tempo real.
 
-![Demonstração do Projeto](https://i.imgur.com/WUz5v7h.png)
+![Demonstração do Projeto](https://i.imgur.com/ljwjAGT.png)
 
 ## Recursos Principais
 
