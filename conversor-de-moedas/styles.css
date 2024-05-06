@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+    box-shadow: none !important;
+}
+
+label,
+span {
+    width: 100px;
+}
+
+footer {
+    text-decoration: none;
+    text-align: center;
+}
+
+footer p {
+    font-style: italic;
+}
