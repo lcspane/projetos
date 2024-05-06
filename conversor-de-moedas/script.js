@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Fetching currency data from API
     fetch('https://api.exchangerate-api.com/v4/latest/USD')
     .then(response => response.json())
     .then(data => {
@@ -19,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
     })
     .catch(error => console.log(error));
 
-    // Currency conversion logic
     document.getElementById('converterBtn').addEventListener('click', function () {
         const fromCurrency = document.getElementById('fromCountrySelect').value;
         const toCurrency = document.getElementById('toCountrySelect').value;
