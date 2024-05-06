@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.imgur.com/ek5jY9d.png" alt="lcspane Logo"></p>
+<p align="center"><img src="https://i.imgur.com/WHBCrAO.png" alt="lcspane Logo"></p>
 
 ## Meu Repositório de Projetos 🚀
 
