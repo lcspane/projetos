@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climafy - Sua Previsão do Tempo em Tempo Real</title>
+    <meta name="description" content="O Climafy oferece previsões do tempo precisas e em tempo real para qualquer cidade do mundo. Desenvolvido por Lucas Pane, o app une tecnologia e praticidade."/>
+    <meta name="author" content="Lucas Pane">
+    <meta name="keywords" content="lcspane, Climafy, Clima, Previsão do Tempo, Tempo em Tempo Real, Aplicativo de Clima, Lucas Pane">
+
+    <!-- Open Graph (OG) -->
+    <meta property="og:title" content="Climafy - Previsão do Tempo">
+    <meta property="og:description" content="Confira a previsão do tempo de forma rápida e precisa. O Climafy é o seu aliado para acompanhar condições climáticas em qualquer lugar do mundo!">
+    <meta property="og:image" content="https://www.lcspane.com/assets/imgs/projetos/for-share/share-projeto-9.jpg">
+    <meta property="og:url" content="https://www.lcspane.com/climafy">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- CSS + Ícone -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="assets/cloud.png" type="image/x-icon">
+
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/ce14dcf40c.js" crossorigin="anonymous"></script>
+</head>
+<!-- Body -->
+<body class="bg-light">
+    <!-- Container Principal -->
+    <div class="container py-4">
+        <!-- Título -->
+        <h1 class="text-center display-5 fw-bold">Climafy</h1>
+        <p class="text-center text-muted mb-4">Sua fonte de previsões do tempo em tempo real, desenvolvido com paixão por Lucas Pane.</p>
+
+        <!-- Barra de Busca -->
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-8 col-lg-6">
+                <div class="input-group">
+                    <input type="text" id="cityInput" class="form-control" placeholder="Digite o nome da cidade" list="citySuggestions">
+                    <datalist id="citySuggestions"></datalist>
+                    <button class="btn btn-primary" id="searchButton">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Alertas de Erro -->
+        <div id="errorAlert" class="alert alert-danger d-none" role="alert">
+            Cidade não encontrada. Por favor, tente novamente.
+        </div>
+
+        <!-- Card do Clima Atual -->
+        <div id="currentWeather" class="card mb-4 d-none">
+            <div class="card-body text-center">
+                <h2 id="cityName" class="card-title fw-bold"></h2>
+                <div class="d-flex justify-content-center align-items-center mb-3">
+                    <img id="weatherIcon" src="" alt="Ícone do clima" class="weather-icon me-3">
+                    <p id="temperature" class="display-4 mb-0"></p>
+                </div>
+                <p id="weatherCondition" class="lead"></p>
+                <div class="row">
+                    <div class="col-6">
+                        <p><i class="fas fa-temperature-low"></i> Sensção: <span id="feelsLike"></span></p>
+                    </div>
+                    <div class="col-6">
+                        <p><i class="fas fa-tint"></i> Umidade: <span id="humidity"></span></p>
+                    </div>
+                    <div class="col-6">
+                        <p><i class="fas fa-wind"></i> Vento: <span id="windSpeed"></span></p>
+                    </div>
+                    <div class="col-6">
+                        <p><i class="fas fa-sun"></i> UV: <span id="uvIndex"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Cards de Previsão -->
+        <div id="forecast" class="row g-3 justify-content-center"></div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="footer d-flex justify-content-between align-items-center">
+            <p class="mb-0">Copyright
+                <script>document.write(new Date().getFullYear())</script> &copy; <a href="https://www.lcspane.com" class="author">Lucas Pane</a>
+            </p>
+            <div class="social-links">
+                <a href="https://www.x.com/lcspane" target="_blank" class="btn text-primary border-primary"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/lcspane" target="_blank" class="btn text-primary border-primary"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.github.com/lcspane" target="_blank" class="btn text-primary border-primary"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/lcspane" target="_blank" class="btn text-primary border-primary"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Boostrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
