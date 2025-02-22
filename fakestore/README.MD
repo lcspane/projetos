@@ -24,7 +24,10 @@
 
 ## 📷 Capturas de Tela
 
-![FakeStore](https://i.imgur.com/lnQCFFh.png)
+![Captura de Tela](https://i.imgur.com/lnQCFFh.png)
+![Captura de Tela](https://i.imgur.com/XB2it7z.png)
+![Captura de Tela](https://i.imgur.com/xUW0ABG.png)
+![Captura de Tela](https://i.imgur.com/vEC9M3E.png)
 
 ## 📂 Estrutura do Projeto
 
