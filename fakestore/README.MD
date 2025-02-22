@@ -49,15 +49,6 @@ FakeStore foi desenvolvido para ser flexível e permitir personalizações fáce
 - **Personalização do carrinho**: A estrutura do carrinho pode ser modificada para incluir novas funcionalidades, como favoritos ou recomendações de produtos.
 - **Adicionando novos cupons**: Basta atualizar o objeto de cupons dentro do script principal para adicionar novos descontos personalizados.
 
-
-## 🛠️ Como Executar o Projeto
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/FakeStore.git
-   ```
-2. Abra o arquivo `index.html` no navegador.
-
 ## 🔗 Links Importantes
 
 - [Demo Online](https://www.lcspane.com/fakestore)
