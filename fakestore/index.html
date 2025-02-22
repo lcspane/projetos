@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Metadados -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FakeStore</title>
+    <meta name="author" content="Lucas Pane">
+    <meta name="description" content="FakeStore é um projeto educativo que demonstra consumo de API, carrinho de compras dinâmico e técnicas avançadas de JavaScript.">
+    <meta name="keywords" content="FakeStore, e-commerce, loja virtual, JavaScript, API, Bootstrap 5, carrinho de compras, desenvolvimento web">
+    <!-- OpenGraph -->
+    <meta property="og:image" content="https://www.lcspane.com/assets/imgs/projetos/for-share/share-projeto-10.jpg">
+    <meta property="og:url" content="https://www.lcspane.com/fakestore">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="files/icon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Overlay do carrinho -->
+    <div class="backdrop" onclick="FakeStore.toggleCart()"></div>
+
+    <!-- Navegação principal -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-store me-2"></i>FakeStore
+            </a>
+            <button class="btn btn-outline-light" onclick="FakeStore.toggleCart()">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="badge bg-danger" id="cart-count">0</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Cabeçalho hero -->
+    <header class="hero bg-primary text-white">
+        <div class="container text-center">
+            <h1 class="display-4" data-aos="fade-up">FakeStore</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+                Projeto educativo que exemplifica, na prática, o consumo de APIs e a implementação de técnicas avançadas de JavaScript, proporcionando uma experiência imersiva no desenvolvimento web.
+            </p>
+            <div data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
+                <a href="https://www.instagram.com/lcspane" target="_blank" class="btn text-white border-white">Portifólio</a>
+                <a href="https://www.github.com/lcspane" target="_blank" class="btn text-white border-white">Source</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="container my-5">
+        <!-- Produtos -->
+        <section class="products-grid my-5" id="products">
+            <h2 class="mb-4">Produtos</h2>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4" id="products-container"></div>
+        </section>
+
+        <!-- Sobre -->
+        <section class="about my-5 py-5" id="about">
+            <div class="card shadow-lg" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
+                <div class="card-body">
+                    <h2 class="card-title mb-4">
+                        <i class="fas fa-info-circle me-2"></i>Sobre o Projeto
+                    </h2>
+                    
+                    <div class="row g-4">
+                        <!-- Funcionalidades -->
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title mb-3">
+                                        <i class="fas fa-cogs me-2"></i>Funcionalidades
+                                    </h5>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item d-flex align-items-center">
+                                            <i class="fas fa-check-circle text-success me-2"></i>
+                                            Sistema completo de carrinho com persistência
+                                        </li>
+                                        <li class="list-group-item d-flex align-items-center">
+                                            <i class="fas fa-check-circle text-success me-2"></i>
+                                            Integração real com API de produtos
+                                        </li>
+                                        <li class="list-group-item d-flex align-items-center">
+                                            <i class="fas fa-check-circle text-success me-2"></i>
+                                            Sistema de cupons de desconto
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Cupons ativos -->
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title mb-3">
+                                        <i class="fas fa-tag me-2"></i>Cupons Ativos
+                                    </h5>
+                                    <div class="alert alert-success">
+                                        <strong>FAKE10:</strong> 10% de desconto
+                                    </div>
+                                    <div class="alert alert-primary">
+                                        <strong>FAKE20:</strong> 20% de desconto
+                                    </div>
+                                    <small class="text-muted">*Aplique no checkout</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tecnologias -->
+                        <div class="col-12 mt-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title mb-3">
+                                        <i class="fas fa-code me-2"></i>Tecnologias Utilizadas
+                                    </h5>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="badge bg-primary">HTML5</span>
+                                        <span class="badge bg-danger">CSS3</span>
+                                        <span class="badge bg-warning">JavaScript</span>
+                                        <span class="badge bg-info">Bootstrap 5</span>
+                                        <span class="badge bg-success">Font Awesome</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Carrinho sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header d-flex justify-content-between align-items-center mb-4">
+            <h4><i class="fas fa-shopping-cart me-2"></i>Carrinho</h4>
+            <button class="btn btn-link text-dark" onclick="FakeStore.toggleCart()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div id="cart-items" class="mb-3"></div>
+        <div class="cart-footer mt-auto">
+            <div class="input-group mb-3">
+                <input type="text" id="coupon" class="form-control" placeholder="Código de desconto">
+                <button class="btn btn-primary" onclick="FakeStore.applyCoupon()">Aplicar</button>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5>Total:</h5>
+                <h5 class="mb-0">R$ <span id="cart-total">0.00</span></h5>
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-danger" onclick="FakeStore.clearCart()">
+                    <i class="fas fa-trash me-2"></i>Limpar Carrinho
+                </button>
+                <button class="btn btn-success" onclick="FakeStore.checkout()">
+                    <i class="fas fa-credit-card me-2"></i>Finalizar Compra
+                </button>
+            </div>
+            <p id="discount-info" class="text-success small mt-2 mb-0"></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer container d-flex justify-content-between align-items-center">
+        <p class="mb-0">Copyright
+            <script>document.write(new Date().getFullYear())</script> &copy; <a href="https://www.lcspane.com" class="author">Lucas Pane</a>
+        </p>
+        <div class="social-links">
+            <a href="https://www.x.com/lcspane" target="_blank" class="btn text-primary border-primary"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/lcspane" target="_blank" class="btn text-primary border-primary"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.github.com/lcspane" target="_blank" class="btn text-primary border-primary"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/lcspane" target="_blank" class="btn text-primary border-primary"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

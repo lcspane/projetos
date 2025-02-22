@@ -1,0 +1,60 @@
+# FakeStore
+
+![FakeStore](https://i.imgur.com/bSrrZv0.jpeg)
+
+**FakeStore** é um projeto educativo que demonstra o consumo de APIs, implementa um carrinho de compras dinâmico e utiliza técnicas avançadas de JavaScript para proporcionar uma experiência imersiva no desenvolvimento web.
+
+## 🚀 Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
+- Font Awesome
+- FakeStore API
+- AOS (Animate On Scroll)
+
+## 📌 Funcionalidades
+
+- 🛒 **Sistema completo de carrinho** com persistência no `localStorage`
+- 🔄 **Integração com API real** para listagem de produtos
+- 🎟️ **Sistema de cupons de desconto** aplicáveis no checkout
+- ⚡ **Animações responsivas** para melhorar a experiência do usuário
+- 📱 **Totalmente responsivo** e compatível com dispositivos móveis
+
+## 📷 Capturas de Tela
+
+![FakeStore](https://i.imgur.com/lnQCFFh.png)
+
+## 📂 Estrutura do Projeto
+
+```
+FakeStore/
+├── index.html        # Estrutura principal do site
+├── scripts.js        # Lógica do carrinho e consumo da API
+├── styles.css        # Estilização personalizada do site
+├── files/
+│   ├── icon.png      # Ícone do site
+```
+
+## 🛠️ Como Executar o Projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/FakeStore.git
+   ```
+2. Abra o arquivo `index.html` no navegador.
+
+## 🔗 Links Importantes
+
+- [Demo Online](https://www.lcspane.com/fakestore)
+- [Portfólio](https://lcspane.com)
+
+## 📜 Licença
+
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+_Desenvolvido por [Lucas Pane](https://www.lcspane.com) 💙_
+
