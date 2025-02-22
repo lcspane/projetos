@@ -40,6 +40,16 @@ FakeStore/
 │   ├── icon.png      # Ícone do site
 ```
 
+## 🎨 Customização
+
+FakeStore foi desenvolvido para ser flexível e permitir personalizações fáceis. Algumas opções incluem:
+
+- **Temas de cores**: Alterando as variáveis CSS no `styles.css`, você pode modificar o esquema de cores da loja.
+- **Configuração da API**: No arquivo `scripts.js`, a URL da API pode ser alterada para usar um backend próprio ou uma API diferente.
+- **Personalização do carrinho**: A estrutura do carrinho pode ser modificada para incluir novas funcionalidades, como favoritos ou recomendações de produtos.
+- **Adicionando novos cupons**: Basta atualizar o objeto de cupons dentro do script principal para adicionar novos descontos personalizados.
+
+
 ## 🛠️ Como Executar o Projeto
 
 1. Clone este repositório:
