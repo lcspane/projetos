@@ -52,7 +52,7 @@ FakeStore foi desenvolvido para ser flexível e permitir personalizações fáce
 ## 🔗 Links Importantes
 
 - [Demo Online](https://www.lcspane.com/fakestore)
-- [Portfólio](https://lcspane.com)
+- [Portifólio](https://lcspane.com)
 
 ## 📜 Licença
 
